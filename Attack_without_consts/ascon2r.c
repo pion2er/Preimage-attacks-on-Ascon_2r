@@ -55,8 +55,6 @@ uint64_t ASCON_2r_hash(uint64_t m64_msg) {
 	x[0] ^= x[4];
 	x[2] = ~x[2];
 
-	printf("\n>> %08llX \n", x[0]);
-
 	/* linear layer */
 	xtemp = x[0] ^ RR(x[0], 9);
 	x[0] ^= RR(xtemp, 19);
