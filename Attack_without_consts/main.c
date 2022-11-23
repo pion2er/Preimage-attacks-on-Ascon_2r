@@ -2,7 +2,7 @@
 #include <time.h>
 
 void main() {
-
+	/*[Only edit here] Enter the hash value you want to find the preimage for*/
 	uint64_t target_hash = 0x6D435891F903F5B3; //e.g. 0x6173636F6E000000 b'ascon' ---(2r_Ascon_Xof)--->  0x6D435891F903F5B3
 
 	/*Bit indices to be linearized*/
